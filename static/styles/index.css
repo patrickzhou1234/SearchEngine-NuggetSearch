@@ -1,0 +1,45 @@
+.results {
+  font-size: calc(2vw + 2vh);
+  color: rgb(0, 195, 255);
+  line-height: 200%;
+}
+
+.results:hover {
+  color: rgb(0, 150, 255);
+}
+
+#searchinput {
+  width: 50vw;
+  height: 5vh;
+  border-radius: 5vh / 50vw;
+  background-color: rgb(39, 48, 71);
+  color: white;
+  font-size: 2vw;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+html {
+  background-color: #1D2333;;
+}
+
+#nugget {
+  width: 10vmin;
+  height: 10vmin;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#submit {
+  width: 20vw;
+  height: 5vh;
+  background-color: rgb(0, 110, 255);
+  border: solid white 1px;
+  position: absolute;
+  top: 0px;
+  left: 77vw;
+}
