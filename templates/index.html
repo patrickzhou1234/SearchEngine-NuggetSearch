@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nugget Search</title>
+  <link rel="shortcut icon" href="{{url_for('static', filename='assets/nugget.png')}}" type="image/x-icon">
+  <link rel="stylesheet" href="{{url_for('static', filename='styles/index.css')}}">
+</head>
+<body>
+  <form method="POST">
+    <center><input id="searchinput" name="text" placeholder="Search for something..." autocomplete="off" autofocus></center>
+    <input id="submit" type="submit" value="Search">
+  </form>
+  <img id="nugget" src="{{url_for('static', filename='assets/nugget.png')}}">
+  <a class="results" target="_blank" href="{{ output0 }}">{{ output0 }}</a><br>
+  <a class="results" target="_blank" href="{{ output1 }}">{{ output1 }}</a><br>
+  <a class="results" target="_blank" href="{{ output2 }}">{{ output2 }}</a><br>
+  <a class="results" target="_blank" href="{{ output3 }}">{{ output3 }}</a><br>
+  <a class="results" target="_blank" href="{{ output4 }}">{{ output4 }}</a><br>
+  <script type="text/javascript" src="{{url_for('static', filename='index.js')}}"></script>
+</body>
+</html>
