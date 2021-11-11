@@ -9,9 +9,10 @@
 </head>
 <body>
   <form method="POST">
-    <center><input id="searchinput" name="text" placeholder="Search for something..." autocomplete="off" autofocus></center>
+    <input id="searchinput" name="text" placeholder="Search for something..." autocomplete="off" autofocus>
     <input id="submit" type="submit" value="Search">
   </form>
+  <div id="blockforinput"></div>
   <img id="nugget" src="{{url_for('static', filename='assets/nugget.png')}}">
   <a class="results" target="_blank" href="{{ output0 }}">{{ output0 }}</a><br>
   <a class="results" target="_blank" href="{{ output1 }}">{{ output1 }}</a><br>
