@@ -16,6 +16,9 @@
   color: white;
   font-size: 2vw;
   border: none;
+  position: absolute;
+  top: 0px;
+  left: 25vw;
 }
 
 input:focus {
@@ -39,7 +42,20 @@ html {
   height: 5vh;
   background-color: rgb(0, 110, 255);
   border: solid white 1px;
+  border-radius: 10vw;
   position: absolute;
   top: 0px;
   left: 77vw;
+  transition: background-color 0.3s;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: rgb(0, 93, 214);
+}
+
+#blockforinput {
+  text-align: center;
+  width: 20vw;
+  height: 5vh;
 }
